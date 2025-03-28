@@ -80,7 +80,7 @@ emailCopy.onfocus = function () {
 emailCopy.onclick = function () {
     navigator
         .clipboard
-        .writeText('hello@tomdunne.design');
+        .writeText('hello@tomdunne.dev');
     const root = document.querySelector(":root");
     root
         .style
@@ -88,14 +88,14 @@ emailCopy.onclick = function () {
 }
 
 emailLink.onclick = function () {
-    window.location.href = "mailto:hello@tomdunne.design";
+    window.location.href = "mailto:hello@tomdunne.dev";
 }
 
 link1.onclick = function () {
     window.open("https://www.linkedin.com/in/tomdunnedesign", '_blank');
 }
 link2.onclick = function () {
-    window.open("https://www.tomdunne.dev", '_blank');
+    window.open("https://www.tomdunne.design", '_blank');
 }
 link3.onclick = function () {
     window.open("https://bsky.app/profile/tomdunnedev.bsky.social", '_blank');
